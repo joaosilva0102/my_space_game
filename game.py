@@ -295,6 +295,7 @@ def main():
                             meteors.remove(meteor)
                             del proj
                             del meteor
+                            break
                             
             if ship.health <= 0:
                 game_state = "game_over"
