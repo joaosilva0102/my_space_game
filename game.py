@@ -30,6 +30,7 @@ class Ship:
         self.cooldown = 0
         self.score = 0
         
+        
     def moveLeft(self, moveRate):
         self.xpos -= moveRate
         if self.xpos < -15:
